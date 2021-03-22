@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Tareas
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="openAlert()">
+        <!-- posicion del icono y nombre de la libreria de ionic -->
+        <ion-icon slot="icon-only" name="add-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Todo ion-item debe estar encerrado dentro de un ion.list -->
+  <ion-list>
+    <ion-item-sliding *ngFor="let task of tasks; let i = index">
+      <ion-item>
+        <ion-label>{{ task.title }}</ion-label>
+        <ion-checkbox [checked]="task.completed" slot="start"></ion-checkbox>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option (click)="deleteTask(task.id, i)" color="danger">
+          <ion-icon name="trash"></ion-icon>
+        </ion-item-option>
+        <ion-item-option (click)="Actualizar(task, i)" color="secondary">
+          <ion-icon name="create-outline"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

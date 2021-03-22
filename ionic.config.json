@@ -1,0 +1,8 @@
+{
+  "name": "ionic-rest-api",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
