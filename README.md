@@ -17,7 +17,7 @@ Esta es la forma de ejecutar el proyecto en Windows:
 3. 	Tener instalado Ionic: $ npm install -g @ionic/cli
 4.	Para inicializar el servicio web, ejecutamos $ ionic serve, estando ubicados en la carpeta raíz del proyecto desde el CMD
 5.	O ejecutamos $ ionic serve --lab, para visualizar el proyecto en un simulador de Android e iOS
-6.  Si te aparece el codigo de error 127, ejecutar $ npm i natives, y volver al paso 4 o 5.
+6.  Si aparece el codigo de error 127, ejecutar $ npm i natives, y volver al paso 4 o 5.
 
 
 REFERENCIAS
