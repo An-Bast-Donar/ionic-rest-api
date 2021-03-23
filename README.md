@@ -14,7 +14,7 @@ EJECUTAR EL PROYECTO
 Esta es la forma de ejecutar el proyecto en Windows:
 1.	Tener instalado Nodejs, que se puede hacer desde https://nodejs.org/es/
 2.	Tener instalado Angular, para esto se puede consultar la documentación oficial de Angular (https://angular.io/) o correr el comando $ npm install -g @angular/cli, desde el CMD
-3. 	Tener instalado Ionic: npm install -g @ionic/cli
+3. 	Tener instalado Ionic: $ npm install -g @ionic/cli
 4.	Para inicializar el servicio web, ejecutamos $ ionic serve, estando ubicados en la carpeta raíz del proyecto desde el CMD
 5.	O ejecutamos $ ionic serve --lab, para visualizar el proyecto en un simulador de Android e iOS
 6.  Si te aparece el codigo de error 127, ejecutar $ npm i natives, y volver al paso 4 o 5.
