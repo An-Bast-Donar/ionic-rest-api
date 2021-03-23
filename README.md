@@ -6,6 +6,8 @@ DESCRIPCIÓN DEL PROYECTO
 
 Este proyecto consulta una lista de tareas de: https://jsonplaceholder.typicode.com/todos, y las lista dentro de la aplicación, el usuario puede crear nuevas tareas y puede deslizar cada tarea hacia la izquierda para acceder a la funcionalidad de modificarla o eliminarla.
 
+![Android-iOS](https://user-images.githubusercontent.com/49569043/112084160-5259d780-8b56-11eb-9331-49ee7bddc8be.JPG)
+
 
 EJECUTAR EL PROYECTO
 
