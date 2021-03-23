@@ -14,7 +14,7 @@ Esta es la forma de ejecutar el proyecto en Windows:
 2.	Tener instalado Angular, para esto se puede consultar la documentación oficial de Angular (https://angular.io/) o correr el comando $ npm install -g @angular/cli, desde el CMD
 3. 	Tener instalado Ionic: npm install -g @ionic/cli
 4.	Para inicializar el servicio web, ejecutamos $ ionic serve, estando ubicados en la carpeta raíz del proyecto desde el CMD
-5.	O ejecutamos $ ionic serve –lab, para visualizar el proyecto en un simulador de Android e iOS
+5.	O ejecutamos $ ionic serve --lab, para visualizar el proyecto en un simulador de Android e iOS
 
 
 REFERENCIAS
